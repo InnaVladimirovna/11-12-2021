@@ -1,0 +1,109 @@
+/* ul a{
+    color: green;
+}
+ul li ul a{
+    color: red;
+}
+ul li ul{
+    list-style: none;
+}
+ul li:last-child ul{
+    list-style-type: square;
+}
+ul li:last-child ul a{
+    text-decoration: none;
+}
+ul li:first-child ul li:nth-child(2) a{
+    color: blue;
+}
+ul li:nth-child(2) li:nth-child(3) a{
+    text-decoration: none;
+} */
+
+/* ul{
+    list-style: none;
+}
+li{
+    border: 1px solid grey;
+    float: left;
+    background-color: lightgray;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+ul li:nth-child(n+4):nth-child(-n+18):nth-child(even){
+    background: green;
+}
+ul li:nth-child(odd):nth-child(n+4):nth-child(-n+18){
+    background: blue;
+}
+
+span{
+    width: 50px;
+    height: 25px;
+}
+strong{
+    width: 25px;
+    height: 50px;
+}
+span, strong{
+    border: 1px solid black;
+    float: left;
+    margin: 1px;
+}
+span:nth-of-type(3){
+    background: lightpink;
+}
+strong:nth-of-type(5){
+    background: purple;
+} */
+/* p::first-letter{
+    color: red;
+    font-size: 40px;
+    float: left;
+    margin: 10px;
+}
+p{
+    width: 40%;
+}
+p::first-line{
+    font-style: italic;
+} */
+/* div{
+    width: 200px;
+    height: 208px;
+    border: 1px solid black;
+    margin: 20px 10px;
+    padding: 30px 5px;
+    block-size: 50px;
+} */
+
+div{
+width: 50px;
+height: 50px;
+border: 1px solid black;
+margin: 10px;
+background: lightpink;
+padding: 9px;
+box-sizing: border-box;
+}
+span{
+    border-radius: 50%;
+    background: purple;
+    width: 30px;
+    height: 30px;
+    display: block;
+    border: 1px solid blue;
+}
+div:last-child{
+    margin: 61px 5px 5px 38px;
+}
+div:first-child{
+    margin: 61px 5px 5px 38px;
+}
+div:nth-child(2){
+    margin: 5px 11px;
+}
+div:nth-child(3){
+    margin: -55px 70px;
+}
